@@ -3,6 +3,8 @@
 A small C++20 and Raylib experiment that renders procedurally animated koi as
 black-and-white pixel art.
 
+Read [how the animation works](docs/how-it-works.md) for the full explanation.
+
 
 
 https://github.com/user-attachments/assets/67b8d7ad-1521-45d1-aa88-6d4cd5aee727
