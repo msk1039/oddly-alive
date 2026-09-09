@@ -3,6 +3,12 @@
 A small C++20 and Raylib experiment that renders procedurally animated koi as
 black-and-white pixel art.
 
+
+
+https://github.com/user-attachments/assets/67b8d7ad-1521-45d1-aa88-6d4cd5aee727
+
+
+
 ## Requirements
 
 - CMake 3.20 or newer
