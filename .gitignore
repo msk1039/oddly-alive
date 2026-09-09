@@ -1,0 +1,10 @@
+.DS_Store
+
+/build/
+/cmake-build-*/
+/procedural-koi-preview.png
+/captures/
+
+.idea/
+.vscode/
+*.swp

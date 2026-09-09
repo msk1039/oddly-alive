@@ -1,0 +1,29 @@
+# Procedural Koi
+
+A small C++20 and Raylib experiment that renders procedurally animated koi as
+black-and-white pixel art.
+
+## Requirements
+
+- CMake 3.20 or newer
+- Raylib
+- pkg-config
+
+## Build
+
+```sh
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --parallel
+./build/procedural-koi
+```
+
+## Controls
+
+- Left click: call the fish
+- Space: scatter the fish
+- `[` / `]`: change the fish count
+- `D`: show the procedural spines
+- `H`: hide the interface
+- `R`: reset
+- `F11`: toggle fullscreen
+- Escape: quit

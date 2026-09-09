@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Procedural koi motion model</title>
+  <desc id="desc">A steering vector drives a damped head turn, followed by a constrained spine and a tail wave, producing a one-bit fish silhouette.</desc>
+  <rect width="960" height="300" fill="#050505"/>
+  <g fill="none" stroke="#fff" stroke-width="2">
+    <path d="M75 150h120"/><path d="m184 141 12 9-12 9"/>
+    <path d="M275 150h120"/><path d="m384 141 12 9-12 9"/>
+    <path d="M475 150h120"/><path d="m584 141 12 9-12 9"/>
+    <path d="M675 150h120"/><path d="m784 141 12 9-12 9"/>
+  </g>
+  <g fill="#fff" font-family="monospace" font-size="15" text-anchor="middle">
+    <text x="75" y="130">STEERING</text><text x="275" y="130">DAMPED TURN</text>
+    <text x="475" y="130">14-JOINT SPINE</text><text x="675" y="130">TRAVELING WAVE</text>
+    <text x="865" y="130">SILHOUETTE</text>
+  </g>
+  <g fill="#fff">
+    <circle cx="72" cy="158" r="4"/><path d="m72 158 55-30-8 18 19 4z"/>
+    <path d="M238 170c15-44 42-52 73-19 22 23 42 15 54-16l-9 17 19 1" fill="none" stroke="#fff" stroke-width="3"/>
+    <path d="M438 162c27-28 54-28 82-2 22 19 40 15 58-10" fill="none" stroke="#fff" stroke-width="2"/>
+    <circle cx="438" cy="162" r="4"/><circle cx="458" cy="150" r="3"/><circle cx="478" cy="148" r="3"/><circle cx="499" cy="155" r="3"/><circle cx="519" cy="166" r="3"/><circle cx="540" cy="169" r="3"/><circle cx="560" cy="163" r="3"/><circle cx="578" cy="150" r="3"/>
+    <path d="M634 156c15-25 30-25 45 0s30 25 45 0 30-25 45 0" fill="none" stroke="#fff" stroke-width="3"/>
+    <path d="M820 150c14-27 62-31 89 0-27 31-75 27-89 0zm89 0 32-25-7 25 7 25z"/>
+    <circle cx="833" cy="143" r="2" fill="#050505"/>
+  </g>
+  <text x="480" y="258" fill="#fff" font-family="monospace" font-size="12" text-anchor="middle">BEHAVIOR → WEIGHT → FOLLOW-THROUGH → PROPULSION → PIXELS</text>
+</svg>
